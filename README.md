@@ -8,3 +8,10 @@ pub unsafe extern "C" fn call() {
     ext::ret(b"Hello world");
 }
 ```
+
+To build, run
+
+```
+cargo install pwasm-utils --force
+./build.sh
+```
